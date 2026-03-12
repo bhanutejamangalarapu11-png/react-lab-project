@@ -1,5 +1,6 @@
 import Users from "./Users";
 import ApiData from "./ApiData";
+import Logout from "./Logout";
 
 function Dashboard() {
   return (
@@ -11,6 +12,7 @@ function Dashboard() {
 
       <ApiData />
 
+      <Logout/>
     </div>
   );
 }
